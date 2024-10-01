@@ -469,8 +469,9 @@ return [
             'icon' => 'fas fa-users-cog',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'Usuarios',
+                    'icon' => 'fas fa-user',
+                    'route' => 'usuarios.index',
                 ],
                 [
                     'text' => 'level_one',
