@@ -16,10 +16,15 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Ronald Niz',
-            'email' => 'admin@infotecpy.com',
-            'password' => Hash::make('Paraguay2024'),
+        // User::factory()->create([
+        //     'name' => 'Ronald Niz',
+        //     'email' => 'admin@infotecpy.com',
+        //     'password' => Hash::make('Paraguay2024'),
+        // ]);
+
+        $this->call([
+            UsuarioSeeder::class,
         ]);
+
     }
 }
