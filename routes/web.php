@@ -21,11 +21,11 @@ Route::middleware([
      */
     Route::controller(UsuarioController::class)->group(function () {
         Route::get('usuarios', 'index')->name('usuarios.index');
-        Route::get('usuario/create', 'create')->name('usuarios.create');
-        Route::post('usuario/store', 'store')->name('usuarios.store');
-        Route::get('usuario/{usuario}', 'show')->name('usuarios.show');
-        Route::get('usuario/{usuario}/edit', 'edit')->name('usuarios.edit');
-        Route::put('usuario/{usuario}', 'update')->name('usuarios.update');
-        Route::delete('usuario/{usuario}', 'destroy')->name('usuarios.destroy');
+        Route::get('usuarios/create', 'create')->name('usuarios.create');
+        Route::post('usuarios/store', 'store')->name('usuarios.store');
+        Route::get('usuarios/{usuario}', 'show')->name('usuarios.show');
+        Route::get('usuarios/{usuario}/edit', 'edit')->name('usuarios.edit');
+        Route::put('usuarios/{usuario}', 'update')->name('usuarios.update');
+        Route::delete('usuarios/{usuario}', 'destroy')->name('usuarios.destroy');
     });
 });

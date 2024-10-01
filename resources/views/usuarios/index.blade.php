@@ -77,6 +77,7 @@
                         </tr>
                     @endforeach
                 </tbody>
+                {!! $usuarios->links('pagination::bootstrap-5') !!}
             </table>
         </div>
 
