@@ -18,8 +18,8 @@ class DatabaseSeeder extends Seeder
 
         User::factory()->create([
             'name' => 'Ronald Niz',
-            'email' => 'desarrollo@marka.com.py',
-            'password' => Hash::make('Rann2006'),
+            'email' => 'admin@infotecpy.com',
+            'password' => Hash::make('Paraguay2024'),
         ]);
     }
 }
