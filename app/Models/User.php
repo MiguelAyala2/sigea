@@ -62,4 +62,14 @@ class User extends Authenticatable implements MustVerifyEmail
             'password' => 'hashed',
         ];
     }
+
+    public function adminlte_image()
+    {
+        return url($this->profile_photo_url);
+    }
+
+    public function adminlte_profile_url()
+    {
+        return url('user/profile');
+    }
 }
