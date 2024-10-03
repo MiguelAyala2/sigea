@@ -348,7 +348,7 @@ return [
 
         [
             'text' => 'SERVICIOS',
-            'icon' => 'fas fa-shopping-cart',
+            'icon' => 'fas fa-scroll',
             'submenu' => [
                 [
                     'text' => 'level_one',
