@@ -308,201 +308,363 @@ return [
         // Sidebar items:
 
         [
-            'text' => 'COMPRAS',
+            'text' => 'Compras',
             'icon' => 'fas fa-shopping-cart',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Registrar pedidos',
+                    'icon' => '',
                     'url' => '#',
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Registrar presupuesto',
+                    'icon' => '',
                     'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Ordenes de compras',
+                    'icon' => '',
                     'url' => '#',
                 ],
+                [
+                    'text' => 'Cuentas a pagar',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Libro Compras',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Ajustes de inventario',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Notas de Creditos y Débitos',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Notas de Remisión',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Informes',
+                    'icon' => '',
+                    'url' => '#',
+                ],                
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                //     'submenu' => [
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //         ],
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //             'submenu' => [
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //             ],
+                //         ],
+                //     ],
+                // ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                // ],
             ],
         ],
 
         [
-            'text' => 'SERVICIOS',
+            'text' => 'Servicios',
             'icon' => 'fas fa-shopping-cart',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Solicitud de servicio',
+                    'icon' => '',
                     'url' => '#',
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Promociones',
+                    'icon' => '',
                     'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Descuentos',
+                    'icon' => '',
                     'url' => '#',
                 ],
+                [
+                    'text' => 'Nota de recepción',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Diagnostico',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Presupuesto',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Orden de servicio',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Registrar insumos',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Generar orden de trabajo',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Registrar reclamo',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Informes',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                //     'submenu' => [
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //         ],
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //             'submenu' => [
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //             ],
+                //         ],
+                //     ],
+                // ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                // ],
             ],
         ],
 
 
         [
-            'text' => 'VENTAS',
+            'text' => 'Ventas',
             'icon' => 'fas fa-hand-holding-usd',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Registrar pedido',
+                    'icon' => '',
                     'url' => '#',
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Cuentas a cobrar',
+                    'icon' => '',
                     'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Apertura y cierre de caja',
+                    'icon' => '',
                     'url' => '#',
                 ],
+                [
+                    'text' => 'Arqueo de caja',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Recaudaciones a depositar',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Libro de ventas',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Notas de remisión',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Cobranzas y forma de cobro',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Gestionar Notas de C y D',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                [
+                    'text' => 'Informes',
+                    'icon' => '',
+                    'url' => '#',
+                ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                //     'submenu' => [
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //         ],
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //             'submenu' => [
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //             ],
+                //         ],
+                //     ],
+                // ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                // ],
             ],
         ],
 
         [
-            'text' => 'CONFIGURACIÓN',
+            'text' => 'Configuración',
             'icon' => 'fas fa-cogs',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
-            ],
-        ],
-
-        [
-            'text' => 'ADMINISTRAR ACCESOS',
-            'icon' => 'fas fa-users-cog',
-            'submenu' => [
-                [
                     'text' => 'Usuarios',
-                    'icon' => 'fas fa-user',
+                    'icon' => '',
                     'route' => 'usuarios.index',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
+                    'text' => 'Roles',
+                    'icon' => '',
+                    'route' => 'usuarios.index',
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Parametros',
+                    'icon' => '',
                     'url' => '#',
                 ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                //     'submenu' => [
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //         ],
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //             'submenu' => [
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //             ],
+                //         ],
+                //     ],
+                // ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                // ],
             ],
         ],
+
+        ['header' => 'Ayuda'],
+
+        [
+            'text' => 'Manual de Usuario',
+            'icon' => 'far fa-question-circle',
+            'url' => '#',
+        ],
+        [
+            'text' => 'Contacto de Soporte',
+            'icon' => 'fas fa-info-circle',
+            'url' => '#',
+        ],
+
+        // [
+        //     'text' => 'ADMINISTRAR ACCESOS',
+        //     'icon' => 'fas fa-users-cog',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'Usuarios',
+        //             'icon' => 'fas fa-user',
+        //             'route' => 'usuarios.index',
+        //         ],
+        //         [
+        //             'text' => 'level_one',
+        //             'url' => '#',
+        //             'submenu' => [
+        //                 [
+        //                     'text' => 'level_two',
+        //                     'url' => '#',
+        //                 ],
+        //                 [
+        //                     'text' => 'level_two',
+        //                     'url' => '#',
+        //                     'submenu' => [
+        //                         [
+        //                             'text' => 'level_three',
+        //                             'url' => '#',
+        //                         ],
+        //                         [
+        //                             'text' => 'level_three',
+        //                             'url' => '#',
+        //                         ],
+        //                     ],
+        //                 ],
+        //             ],
+        //         ],
+        //         [
+        //             'text' => 'level_one',
+        //             'url' => '#',
+        //         ],
+        //     ],
+        // ],
 
         // [
         //     'type' => 'sidebar-menu-search',
