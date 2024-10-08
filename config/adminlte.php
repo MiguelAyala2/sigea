@@ -322,6 +322,12 @@ return [
                     'url' => '#',
                 ],
                 [
+                    'text' => 'Proveedores',
+                    'icon' => '',
+                    'can' => 'Proveedores Listar',
+                    'route' => 'proveedores.index',
+                ],
+                [
                     'text' => 'Ordenes de compras',
                     'icon' => '',
                     'url' => '#',

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,5 +28,18 @@ Route::middleware([
         Route::get('usuarios/{usuario}/edit', 'edit')->name('usuarios.edit');
         Route::put('usuarios/{usuario}', 'update')->name('usuarios.update');
         Route::delete('usuarios/{usuario}', 'destroy')->name('usuarios.destroy');
+    });
+
+    /**
+     * Rutas para el modulo Proveedor
+     */
+    Route::controller(ProveedorController::class)->group(function () {
+        Route::get('proveedores', 'index')->name('proveedores.index');
+        Route::get('proveedores/create', 'create')->name('proveedores.create');
+        Route::post('proveedores/store', 'store')->name('proveedores.store');
+        // Route::get('proveedores/{proveedor}', 'show')->name('proveedores.show');
+        Route::get('proveedores/{proveedor}/edit', 'edit')->name('proveedores.edit');
+        Route::put('proveedores/{proveedor}', 'update')->name('proveedores.update');
+        Route::delete('proveedores/{proveedor}', 'destroy')->name('proveedores.destroy');
     });
 });

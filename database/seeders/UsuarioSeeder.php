@@ -23,6 +23,11 @@ class UsuarioSeeder extends Seeder
             'Usuarios Crear',
             'Usuarios Editar',
             'Usuarios Eliminar',
+
+            'Proveedores Listar',
+            'Proveedores Crear',
+            'Proveedores Editar',
+            'Proveedores Eliminar',
         ];
 
         // Recorrer los registros en un foreach para crearlos
