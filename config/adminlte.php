@@ -314,7 +314,7 @@ return [
                 [
                     'text' => 'Registrar pedidos',
                     'icon' => '',
-                    'url' => '#',
+                    'route' => 'pedidos.index',
                 ],
                 [
                     'text' => 'Registrar presupuesto',

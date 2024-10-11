@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PedidoController;
 use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
@@ -41,5 +42,18 @@ Route::middleware([
         Route::get('proveedores/{proveedor}/edit', 'edit')->name('proveedores.edit');
         Route::put('proveedores/{proveedor}', 'update')->name('proveedores.update');
         Route::delete('proveedores/{proveedor}', 'destroy')->name('proveedores.destroy');
+    });
+
+    /**
+     * Rutas para el modulo Pedidos
+     */
+    Route::controller(PedidoController::class)->group(function () {
+        Route::get('pedidos', 'index')->name('pedidos.index');
+        Route::get('pedidos/create', 'create')->name('pedidos.create');
+        Route::post('pedidos/store', 'store')->name('pedidos.store');
+        // // Route::get('proveedores/{proveedor}', 'show')->name('proveedores.show');
+        // Route::get('proveedores/{proveedor}/edit', 'edit')->name('proveedores.edit');
+        // Route::put('proveedores/{proveedor}', 'update')->name('proveedores.update');
+        // Route::delete('proveedores/{proveedor}', 'destroy')->name('proveedores.destroy');
     });
 });
